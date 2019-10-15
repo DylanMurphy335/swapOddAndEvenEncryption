@@ -83,17 +83,6 @@ def encrypt(letters):
         i += 1
     return letters
 
-def decrypt(letters):
-    i = 0
-    while (i < len(letters)):
-        check = letters[i] % 2
-        if (check == 0):
-            letters[i] += 1
-        else:
-            letters[i] -= 1
-        i += 1
-    return letters
-
 def to_char(letters):
     i = 0
     while (i < len(letters)):
@@ -116,15 +105,6 @@ def encrypt_input(input):
     letters = get_input(input)
     letters = to_ascii(letters)
     letters = encrypt(letters)
-    letters = to_char(letters)
-    text = concatinate(letters)
-    return text
-
-def decrypt_input(input):
-    letters = []
-    letters = get_input(input)
-    letters = to_ascii(letters)
-    letters = decrypt(letters)
     letters = to_char(letters)
     text = concatinate(letters)
     return text
