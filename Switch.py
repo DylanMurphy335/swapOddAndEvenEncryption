@@ -6,6 +6,7 @@
 #6. convert array to string
 #7. print string
 #1
+"""
 print("#1")
 text = input("Enter text for encryption or decryption")
 
@@ -13,7 +14,6 @@ text = input("Enter text for encryption or decryption")
 print("#2")
 letters = []
 character = text.split()
-
 for character in text:
     print(character)
     letters.append(character)
@@ -41,6 +41,7 @@ while(i<len(letters)):
 print("#5")
 i=0
 while(i<len(letters)):
+    print(letters[i])
     letters[i] = chr(letters[i])
     print(letters[i])
     i += 1
@@ -54,4 +55,76 @@ while(i<len(letters)):
     i += 1
 
 print(word)
+"""
+def get_input(text):
+    letters = []
+    character = text.split()
+    for character in text:
+        print(character)
+        letters.append(character)
+    return letters
 
+def to_ascii(letters):
+    i = 0
+    while (i < len(letters)):
+        letters[i] = ord(letters[i])
+        print(letters[i])
+        i += 1
+    return letters
+
+def encrypt(letters):
+    i = 0
+    while (i < len(letters)):
+        check = letters[i] % 2
+        if (check == 0):
+            letters[i] -= 1
+        else:
+            letters[i] += 1
+        i += 1
+    return letters
+
+def decrypt(letters):
+    i = 0
+    while (i < len(letters)):
+        check = letters[i] % 2
+        if (check == 0):
+            letters[i] += 1
+        else:
+            letters[i] -= 1
+        i += 1
+    return letters
+
+def to_char(letters):
+    i = 0
+    while (i < len(letters)):
+        print(letters[i])
+        letters[i] = chr(letters[i])
+        print(letters[i])
+        i += 1
+    return letters
+
+def concatinate(letters):
+    word = ""
+    i = 0
+    while (i < len(letters)):
+        word = word + letters[i]
+        i += 1
+    return word
+
+def encrypt_input(input):
+    letters = []
+    letters = get_input(input)
+    letters = to_ascii(letters)
+    letters = encrypt(letters)
+    letters = to_char(letters)
+    text = concatinate(letters)
+    return text
+
+def decrypt_input(input):
+    letters = []
+    letters = get_input(input)
+    letters = to_ascii(letters)
+    letters = decrypt(letters)
+    letters = to_char(letters)
+    text = concatinate(letters)
+    return text
