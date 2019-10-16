@@ -3,8 +3,19 @@
   <component name="ChangeListManager">
     <list default="true" id="a11484e2-bca0-4c66-a37a-a0468a11cfc5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Switch.py" beforeDir="false" afterPath="$PROJECT_DIR$/Switch.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui.py" beforeDir="false" afterPath="$PROJECT_DIR$/gui.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/gui/Analysis-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/gui/Analysis-00.toc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/gui/COLLECT-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/gui/COLLECT-00.toc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/gui/EXE-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/gui/EXE-00.toc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/gui/PKG-00.pkg" beforeDir="false" afterPath="$PROJECT_DIR$/build/gui/PKG-00.pkg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/gui/PYZ-00.pyz" beforeDir="false" afterPath="$PROJECT_DIR$/build/gui/PYZ-00.pyz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/gui/PYZ-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/build/gui/PYZ-00.toc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/gui/base_library.zip" beforeDir="false" afterPath="$PROJECT_DIR$/build/gui/base_library.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/gui/gui.exe" beforeDir="false" afterPath="$PROJECT_DIR$/build/gui/gui.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/gui/warn-gui.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/gui/warn-gui.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/gui/xref-gui.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/gui/xref-gui.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gui/base_library.zip" beforeDir="false" afterPath="$PROJECT_DIR$/dist/gui/base_library.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/gui/gui.exe" beforeDir="false" afterPath="$PROJECT_DIR$/dist/gui/gui.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/icon/pepe.png" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -118,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571138915181</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Removed decrypt option because it did nothing. centered the label, entry and button">
+      <created>1571147102361</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1571147102361</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -137,6 +155,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Working prototype" />
     <MESSAGE value="Added Gui for ease of use" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Gui for ease of use" />
+    <MESSAGE value="Removed decrypt option because it did nothing. centered the label, entry and button" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed decrypt option because it did nothing. centered the label, entry and button" />
   </component>
 </project>
